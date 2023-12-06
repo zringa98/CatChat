@@ -17,4 +17,9 @@
         android:label="Help"
         tools:layout="@layout/fragment_help" />
 
+    <fragment android:id="@+id/sentItemsFragment"
+        android:name="com.example.catchat.SentItemsFragment"
+        android:label="sent items"
+        tools:layout="@layout/fragment_sent_items" />
+
 </navigation>
